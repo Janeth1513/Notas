@@ -9,7 +9,7 @@
         <div>
         <div class="max-w-6xl mx-auto py-10 sm:px-6 lg:px-8">
             <div class="block mb-8">
-                <inertia-link :href="route('nota.edit',nota.id)"
+                <inertia-link :href="route('nota.edit', nota.id)"
                         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-8 rounded-md"
                     >
                         Editar
@@ -58,6 +58,7 @@
         props: {
             nota: Object
         }
+        
 
     })
 </script>
